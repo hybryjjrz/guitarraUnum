@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.min.css">
+</head>
+<body>
+    
+    <header class="py-5 header">
+        <div class="container-xl">
+            <div class="row justify-content-center justify-content-md-between ">
+                <div class="col-8 col-md-3"> <!--Se usa col-8 para que en pantallas pequeñas el logo no tome todo el espacio disponible y se centra con el justify-content |||| por lo tanto, ocupará 8 columnas en pantallas pequeñas y 3 en pantallas grandes-->
+                    
+                    <a href="index.html" class="">
+                        <img src="build/img/logo.svg" alt="imagen logo" class="img-fluid">
+                    </a>    
+                </div>
+
+                <nav class="col-md-6 d-flex flex-column align-items-center mt-5 mt-md-0 flex-md-row justify-content-md-end navegacion"> <!--ocupará todo el espacio disponible en pantallas pequeñas y en pantallas grandes sólo 6 columnas (col-md-6)-->
+                    <a href="index.html" class="d-block px-2 py-1 fs-6 fw-bold text-uppercase">Inicio</a>
+                    <a href="nosotros.html" class="d-block px-2 py-1 fs-6 fw-bold text-uppercase">Nosotros</a>
+                    <a href="blog.html" class="d-block px-2 py-1 fs-6 fw-bold text-uppercase">Blog</a>
+                    <a href="tienda.html" class="d-block px-2 py-1 fs-6 fw-bold text-uppercase">Tienda</a>
+                </nav>
+
+
+            </div> <!-- .row -->
+
+            <div class="row mt-5">
+                <div class="col-md-6 text-center text-md-start pt-5"> <!--haciendo que el texto esté centrado en pantallas pequeñas (text-center) y esté a la izquierda en pantallas grandes (text-md-start)-->
+                    <h1 class="display-2 fw-bold">Modelo VAI</h1>
+                    <p class="mt-5 fs-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit- At impedit, asperiores explicabo laboriosam fugit quasi, cumque ipsum consequuntur deserunt sapiente voluptatem hic libero tenetur. Possimus quisquam eum modi minima porro.</p>
+                    <p class="text-primary fs-1 fw-black">$399</p>
+
+                    <a href="producto.html" class="btn fs-4 bg-primary text-white py-2 px-5 ">Ver Producto</a>
+                </div>
+            </div>
+
+        </div>
+
+        <img src="build/img/header_guitarra.png" alt="imagen header" class="header-guitarra">
+
+    </header>
+
+    <main class="container-xl mt-5">
+        <h2 class="text-center">Nuestra Colección</h2>
+        
+        <div class="row mt-5">
+            
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center"> <!--LAS col van del 1 al 12, significando cuántas columnas de las 12 existentes va a ocupar el elemento |||| el my estará en todas las queries-->
+                <div class="col-4"> <!--se usa col sin media query porque estos elementos siempre tendrán la misma distribución de sus elementos-->
+                    <img src="build/img/guitarra_01.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Lukather</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_02.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">SRV</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_03.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Borland</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_04.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Vai</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_05.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Thompson</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_06.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">White</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_07.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Cobain</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_08.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Dale</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_09.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Krieger</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_10.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Campbell</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_11.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Reed</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center">
+                <div class="col-4">
+                    <img src="build/img/guitarra_12.jpg" alt="imagen guitarra" class="img-fluid">
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-black fs-4 fw-bold text-uppercase">Hazel</h3>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque officiis saepe ab iusto</p>
+                    <p class="fw-black text-primary fs-3">$299</p>
+                    <a href="producto.html" class="bg-black d-block text-center p-2 text-uppercase fw-black">Ver Producto</a>
+                </div>
+
+            </div> <!--Fin guitarra-->
+
+        </div><!--fin row main-->
+
+    </main>
+
+    <section class="cursos px-2">
+        <div class="cotainer-xl">
+            <div class="row justify-content-md-end"> <!-- para hacer que el contenido se posicione hasta la derecha en dispositivos medianos o más grandes |||| en pantallas pequeñas el elemento ocupará todo el espacio disponible-->
+                <div class="col-md-6 text-center"> <!--centra el texto de todos sus contenidos-->
+                   <h3>Aprende a tocar guitarra</h3>
+                   <p class="text-white mt-3 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae ab labore eaque optio, iure mollitia, necessitatibus hic quidem minus architecto consequuntur asperiores tempora distinctio amet ex, eos sit. Libero.</p>
+
+                   <a href="#" class="bg-primary text-white py-2 px-5 mt-2 fw-black text-uppercase">Más información</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-xl mt-5">
+        <h2 class="text-center">Nuestro Blog</h2>
+
+        <div class="row mt-4">
+            <div class="col-md-6 col-lg-3 mb-4"> <!-- 1 columna sm, 2 columnas md, 4 columnas lg-->
+                <div class="card">
+                    <img src="/build/img/blog_1.jpg" alt="imagen blog" class="card-img-top">
+                    
+                    <div class="card-body">
+                        <h3 class="text-black fw-normal fs-4">Como elegir tu primer guitarra</h3> <!--fw-normal evita la aplicación de negritas-->
+                        <p class="text-primary">20 de Enero de 2022</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat voluptatibus eligendi nisi nulla non aliquam soluta.</p>
+
+                        <a href="entrada.html" class="btn btn-primary d-block text-white text-uppercase fs-6 mt-4">Leer Entrada</a>
+                    </div>
+                </div>
+            </div><!--col-md-6-->
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="/build/img/blog_2.jpg" alt="imagen blog" class="card-img-top">
+                    
+                    <div class="card-body">
+                        <h3 class="text-black fw-normal fs-4">Como elegir tu primer guitarra</h3> <!--fw-normal evita la aplicación de negritas-->
+                        <p class="text-primary">20 de Enero de 2022</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat voluptatibus eligendi nisi nulla non aliquam soluta.</p>
+
+                        <a href="entrada.html" class="btn btn-primary d-block text-white text-uppercase fs-6 mt-4">Leer Entrada</a>
+                    </div>
+                </div>
+            </div><!--col-md-6-->
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="/build/img/blog_3.jpg" alt="imagen blog" class="card-img-top">
+                    
+                    <div class="card-body">
+                        <h3 class="text-black fw-normal fs-4">Como elegir tu primer guitarra</h3> <!--fw-normal evita la aplicación de negritas-->
+                        <p class="text-primary">20 de Enero de 2022</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat voluptatibus eligendi nisi nulla non aliquam soluta.</p>
+
+                        <a href="entrada.html" class="btn btn-primary d-block text-white text-uppercase fs-6 mt-4">Leer Entrada</a>
+                    </div>
+                </div>
+            </div><!--col-md-6-->
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="/build/img/blog_4.jpg" alt="imagen blog" class="card-img-top">
+                    
+                    <div class="card-body">
+                        <h3 class="text-black fw-normal fs-4">Como elegir tu primer guitarra</h3> <!--fw-normal evita la aplicación de negritas-->
+                        <p class="text-primary">20 de Enero de 2022</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat voluptatibus eligendi nisi nulla non aliquam soluta.</p>
+
+                        <a href="entrada.html" class="btn btn-primary d-block text-white text-uppercase fs-6 mt-4">Leer Entrada</a>
+                    </div>
+                </div>
+            </div><!--col-md-6-->
+
+        </div>
+
+    </section>
+
+    <footer class="bg-dark mt-5 py-5">
+        <div class="container-xl d-md-flex justify-content-md-between"> <!-- d-md-flex hace que los elementos estén en la misma fila-->
+            <nav class="d-flex flex-column flex-md-row align-items-center">
+                <a href="index.html" class="text-white fs-4 me-md-2">Inicio</a> <!--me-md-2 margin a la derecha en pantallas medianas-->
+                <a href="nosotros.html" class="text-white fs-4 me-md-2">Nosotros</a>
+                <a href="blog.html" class="text-white fs-4 me-md-2">Blog</a>
+                <a href="tienda.html" class="text-white fs-4 me-md-2">Tienda</a>
+            </nav>
+
+            <p class="text-white text-center fs-4 mt-4 m-md-0">Todos los derechos Reservados &copy;</p> <!-- m-md-0 para que en pantallas medianas el margin no interfiera en la alineación vertical de este elemento con el nav-->
+
+        </div>
+    </footer>
+
+</body>
+</html>
